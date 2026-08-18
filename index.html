@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/react.js"></script>
+<script defer src="assets/js/react-dom.js"></script>
+<script defer src="assets/js/app.js"></script>
+<script defer src="assets/js/dc-runtime.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Talpiot 4 Good — תוצרי ההאקתון</title>
+</helmet>
+<div dir="rtl" style="font-family: Assistant, system-ui, sans-serif; background: #150c2e; color: #f3efff; min-height: 100vh; overflow-x: hidden;">
+
+  <header style="position: relative; padding: clamp(48px,7vw,96px) clamp(20px,6vw,90px) clamp(40px,5vw,72px); background: radial-gradient(70% 60% at 85% -10%, rgba(241,67,155,.35), transparent 60%), radial-gradient(50% 50% at 5% 10%, rgba(108,43,217,.45), transparent 65%), #150c2e; border-bottom: 1px solid rgba(255,255,255,.1);">
+    <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-family: Rubik, sans-serif; font-size: 13px; letter-spacing: .14em; color: #b6acdc;">
+      <span style="padding: 6px 14px; border: 1px solid rgba(255,255,255,.25); border-radius: 999px;">פורום בוגרי תלפיות</span>
+      <span style="color: #f1439b;">×</span>
+      <span style="padding: 6px 14px; border: 1px solid rgba(255,255,255,.25); border-radius: 999px;">הסדנא לידע ציבורי</span>
+    </div>
+    <h1 style="font-family: Rubik, sans-serif; font-weight: 900; font-size: clamp(42px,8vw,104px); line-height: .95; margin: 28px 0 0; letter-spacing: -.02em;">
+      <span style="color: #f1439b;">Talpiot 4 Good</span><br>
+      <span style="color: #c6f135;">מה יצא מזה?</span>
+    </h1>
+    <p style="max-width: 720px; font-size: clamp(17px,2.2vw,24px); line-height: 1.55; color: #ddd6ff; margin: 24px 0 0; text-wrap: pretty;">
+      16 אתגרים לאומיים, מוניציפליים וחברתיים. סוף שבוע אחד. בנינו כלים, מאגרי נתונים פתוחים וממשקים מוכנים להטמעה, שנועדו לגשר על פער הנתונים שבין האזרח לממסד.
+    </p>
+    <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 36px;">
+      <a href="#projects" style="display: inline-block; padding: 14px 30px; border-radius: 999px; background: #c6f135; color: #150c2e; font-weight: 700; font-size: 17px;" style-hover="background:#ffffff;color:#150c2e;">לקטלוג התוצרים</a>
+      <a href="#next" style="display: inline-block; padding: 14px 30px; border-radius: 999px; border: 1px solid rgba(255,255,255,.35); color: #f3efff; font-weight: 700; font-size: 17px;" style-hover="border-color:#f1439b;color:#f1439b;">בואו נמשיך מכאן</a>
+    </div>
+  </header>
+
+  <section style="padding: clamp(36px,5vw,64px) clamp(20px,6vw,90px); background: #1b1038;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr)); gap: clamp(16px,2.5vw,28px);">
+      <div style="padding: 22px; border-radius: 20px; background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.1);">
+        <div style="font-family: Rubik, sans-serif; font-weight: 900; font-size: clamp(34px,5vw,52px); color: #c6f135; line-height: 1;">16</div>
+        <div style="color: #b6acdc; margin-top: 8px; font-size: 16px;">אתגרים שנפתרו בפועל</div>
+      </div>
+      <div style="padding: 22px; border-radius: 20px; background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.1);">
+        <div style="font-family: Rubik, sans-serif; font-weight: 900; font-size: clamp(34px,5vw,52px); color: #4fc3ff; line-height: 1; direction: ltr; unicode-bidi: isolate; text-align: right;">200+</div>
+        <div style="color: #b6acdc; margin-top: 8px; font-size: 16px;">משתתפים בהאקתון</div>
+      </div>
+      <div style="padding: 22px; border-radius: 20px; background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.1);">
+        <div style="font-family: Rubik, sans-serif; font-weight: 900; font-size: clamp(34px,5vw,52px); color: #f1439b; line-height: 1;">259</div>
+        <div style="color: #b6acdc; margin-top: 8px; font-size: 16px;">אתרי רשויות מקומיות</div>
+      </div>
+      
+      <div style="padding: 22px; border-radius: 20px; background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.1);">
+        <div style="font-family: Rubik, sans-serif; font-weight: 900; font-size: clamp(34px,5vw,52px); color: #c6f135; line-height: 1;">8</div>
+        <div style="color: #b6acdc; margin-top: 8px; font-size: 16px;">פרוטוטייפים שאפשר להיכנס אליהם עכשיו</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" style="padding: clamp(48px,6vw,88px) clamp(20px,6vw,90px) clamp(30px,4vw,50px);">
+    <h2 style="font-family: Rubik, sans-serif; font-weight: 900; font-size: clamp(28px,4.5vw,50px); margin: 0; letter-spacing: -.02em;">קטלוג התוצרים</h2>
+    <p style="color: #b6acdc; max-width: 680px; margin: 14px 0 0; font-size: 17px;">סננו לפי סוג הפתרון, או הציגו רק את התוצרים שיש להם קוד פתוח ב‑GitHub.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px;">
+      <sc-for list="{{ filters }}" as="chip" hint-placeholder-count="5">
+        <button sc-camel-on-click="{{ chip.select }}" style="{{ chip.style }}">{{ chip.label }}</button>
+      </sc-for>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(330px, 100%), 1fr)); gap: clamp(16px,2vw,24px); margin-top: 32px; align-items: start;">
+      <sc-for list="{{ projects }}" as="p" hint-placeholder-count="6">
+        <article style="border-radius: 24px; padding: 26px; background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03)); border: 1px solid rgba(255,255,255,.12); display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
+            <h3 style="font-family: Rubik, sans-serif; font-weight: 700; font-size: 23px; margin: 0; line-height: 1.25; text-wrap: pretty;">{{ p.title }}</h3>
+            <span style="font-family: Rubik, sans-serif; font-size: 13px; color: #6d5fa8;">{{ p.num }}</span>
+          </div>
+          <sc-if value="{{ p.top }}" hint-placeholder-val="{{ false }}">
+            <div style="align-self: flex-start; padding: 4px 12px; border-radius: 999px; background: #f1439b; color: #fff; font-size: 13px; font-weight: 700; letter-spacing: .04em;">מוכן לקפיצת מדרגה</div>
+          </sc-if>
+          <div>
+            <div style="font-size: 13px; letter-spacing: .12em; color: #f1439b; font-weight: 700; margin-bottom: 4px;">האתגר</div>
+            <p style="margin: 0; font-size: 16.5px; line-height: 1.55; color: #ded7ff; text-wrap: pretty;">{{ p.challenge }}</p>
+          </div>
+          <div>
+            <div style="font-size: 13px; letter-spacing: .12em; color: #c6f135; font-weight: 700; margin-bottom: 4px;">מה נבנה</div>
+            <p style="margin: 0; font-size: 16.5px; line-height: 1.55; color: #ded7ff; text-wrap: pretty;">{{ p.solution }}</p>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            <sc-for list="{{ p.types }}" as="t" hint-placeholder-count="2">
+              <span style="padding: 4px 12px; border-radius: 8px; background: rgba(79,195,255,.14); border: 1px solid rgba(79,195,255,.35); color: #9fdcff; font-size: 13px; font-weight: 600;">{{ t }}</span>
+            </sc-for>
+          </div>
+          <sc-if value="{{ p.expanded }}" hint-placeholder-val="{{ false }}">
+            <div style="border-top: 1px dashed rgba(255,255,255,.18); padding-top: 14px; display: flex; flex-direction: column; gap: 12px;">
+              <sc-if value="{{ p.hasNext }}" hint-placeholder-val="{{ true }}">
+                <div>
+                  <div style="font-size: 13px; letter-spacing: .12em; color: #4fc3ff; font-weight: 700; margin-bottom: 4px;">מה הלאה</div>
+                  <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #c9c1f0; text-wrap: pretty;">{{ p.next }}</p>
+                </div>
+              </sc-if>
+              <sc-if value="{{ p.hasLinks }}" hint-placeholder-val="{{ true }}">
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                  <sc-for list="{{ p.links }}" as="l" hint-placeholder-count="1">
+                    <a href="{{ l.url }}" target="_blank" rel="noopener" style="font-size: 15.5px; font-weight: 700; word-break: break-word;">↗ {{ l.label }}</a>
+                  </sc-for>
+                </div>
+              </sc-if>
+            </div>
+          </sc-if>
+          <button sc-camel-on-click="{{ p.toggle }}" style="align-self: flex-start; margin-top: auto; background: none; border: none; padding: 6px 0; color: #c6f135; font-family: Assistant, sans-serif; font-weight: 700; font-size: 15.5px; cursor: pointer;" style-hover="color:#ffffff;">{{ p.toggleLabel }}</button>
+        </article>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="padding: clamp(48px,6vw,88px) clamp(20px,6vw,90px); background: #1b1038;">
+    <h2 style="font-family: Rubik, sans-serif; font-weight: 900; font-size: clamp(28px,4.5vw,50px); margin: 0 0 32px; letter-spacing: -.02em;">מה זה אומר עבורכם</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(16px,2vw,24px);">
+      <div style="padding: 30px; border-radius: 24px; background: rgba(241,67,155,.1); border: 1px solid rgba(241,67,155,.35);">
+        <h3 style="font-family: Rubik, sans-serif; font-weight: 700; font-size: 22px; margin: 0 0 12px; color: #f79fd0;">משרדי ממשלה ורגולטורים</h3>
+        <p style="margin: 0; color: #ded7ff; font-size: 16.5px; line-height: 1.6; text-wrap: pretty;">מדדי בקרה שקופים על תחזיות הכלכלן הראשי, ניתוח סמנטי של תקציב המדינה בעזרת סוכני AI, וחשיפת ריכוזיות ספקים ברכש החברתי — בסיס לקבלת החלטות מבוססת נתונים.</p>
+      </div>
+      <div style="padding: 30px; border-radius: 24px; background: rgba(198,241,53,.09); border: 1px solid rgba(198,241,53,.32);">
+        <h3 style="font-family: Rubik, sans-serif; font-weight: 700; font-size: 22px; margin: 0 0 12px; color: #c6f135;">רשויות מקומיות</h3>
+        <p style="margin: 0; color: #ded7ff; font-size: 16.5px; line-height: 1.6; text-wrap: pretty;">כלי ניהול יער עירוני עם הרשאות ו‑Data Governance, טיוב מנועי כתובות ל‑GIS עירוני, מפות היתרי בנייה וכריתות עצים, ומדד שקיפות תקציבית להשוואה בין רשויות.</p>
+      </div>
+      <div style="padding: 30px; border-radius: 24px; background: rgba(79,195,255,.1); border: 1px solid rgba(79,195,255,.32);">
+        <h3 style="font-family: Rubik, sans-serif; font-weight: 700; font-size: 22px; margin: 0 0 12px; color: #9fdcff;">תעשייה, אקדמיה ותקשורת</h3>
+        <p style="margin: 0; color: #ded7ff; font-size: 16.5px; line-height: 1.6; text-wrap: pretty;">מאגרי נתונים פתוחים ו‑APIs — תחבורה ציבורית, מחירי מזון, פנסיה, חקיקה וציוצי ח"כים — כתשתית למחקר, לתחקירים עיתונאיים ולפיתוח מוצרים אזרחיים.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="next" style="padding: clamp(52px,7vw,100px) clamp(20px,6vw,90px); background: radial-gradient(60% 70% at 20% 0%, rgba(108,43,217,.5), transparent 60%), #150c2e;">
+    <h2 style="font-family: Rubik, sans-serif; font-weight: 900; font-size: clamp(30px,5vw,58px); margin: 0; letter-spacing: -.02em; max-width: 16ch; line-height: 1.05;">ההאקתון נגמר. <span style="color: #c6f135;">העבודה מתחילה.</span></h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 20px; margin: 36px 0 40px; max-width: 1100px;">
+      <div style="padding: 22px 24px; border-radius: 18px; border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.04);">
+        <div style="font-family: Rubik, sans-serif; color: #f1439b; font-size: 15px; font-weight: 700; margin-bottom: 6px;">אימוץ תוצר</div>
+        <p style="margin: 0; color: #ded7ff; font-size: 16px; line-height: 1.55;">גוף ממשלתי או רשות שמאמצת כלי קיים כפיילוט תפעולי, כולל התאמות White‑Label.</p>
+      </div>
+      <div style="padding: 22px 24px; border-radius: 18px; border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.04);">
+        <div style="font-family: Rubik, sans-serif; color: #c6f135; font-size: 15px; font-weight: 700; margin-bottom: 6px;">פתיחת נתונים</div>
+        <p style="margin: 0; color: #ded7ff; font-size: 16px; line-height: 1.55;">גישה מוסדרת למקורות שנחסמו — קופות חולים, ארנונה, פנסיה — במקום גירוד וניחוש.</p>
+      </div>
+      <div style="padding: 22px 24px; border-radius: 18px; border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.04);">
+        <div style="font-family: Rubik, sans-serif; color: #4fc3ff; font-size: 15px; font-weight: 700; margin-bottom: 6px;">חסות והמשך פיתוח</div>
+        <p style="margin: 0; color: #ded7ff; font-size: 16px; line-height: 1.55;">חברות ומתנדבים שלוקחים תוצר לתחזוקה ארוכת טווח עד לרמת מוצר ציבורי.</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+      <a href="mailto:dorit@hasadna.org.il" style="display: inline-block; padding: 16px 34px; border-radius: 999px; background: #f1439b; color: #ffffff; font-weight: 700; font-size: 18px;" style-hover="background:#c6f135;color:#150c2e;">dorit@hasadna.org.il</a>
+      <span style="color: #b6acdc; font-size: 16.5px;">מעוניינים להטמיע תוצר, לפתוח מאגר או להצטרף להאקתון הבא — דברו איתנו.</span>
+    </div>
+    <footer style="margin-top: clamp(48px,6vw,80px); padding-top: 24px; border-top: 1px solid rgba(255,255,255,.12); color: #6d5fa8; font-size: 14.5px; display: flex; flex-wrap: wrap; gap: 8px 24px;">
+      <span>Talpiot 4 Good — פורום בוגרי תלפיות × הסדנא לידע ציבורי (ע״ר)</span>
+      <span>חוברת תוצרים · 2026</span>
+      <a href="https://github.com/hasadna" target="_blank" rel="noopener">github.com/hasadna</a>
+    </footer>
+  </section>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#c6f135&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#c6f135&quot;,&quot;#f1439b&quot;,&quot;#4fc3ff&quot;]},&quot;showNextSteps&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;תוכן&quot;},&quot;top5First&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;תוכן&quot;}}"></script>
+
+
+</body></html>
